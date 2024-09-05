@@ -1,0 +1,173 @@
+object Form2: TForm2
+  Left = 229
+  Height = 363
+  Top = 162
+  Width = 478
+  Caption = 'Form Data Mahasiswa'
+  ClientHeight = 363
+  ClientWidth = 478
+  Color = 8453888
+  OnCreate = FormCreate
+  LCLVersion = '3.4.0.0'
+  object Label1: TLabel
+    Left = 16
+    Height = 15
+    Top = 56
+    Width = 93
+    Caption = 'Nama Mahasiswa'
+  end
+  object Nama: TEdit
+    Left = 160
+    Height = 23
+    Top = 48
+    Width = 176
+    TabOrder = 0
+    OnChange = NamaChange
+  end
+  object TampilNm: TEdit
+    Left = 160
+    Height = 23
+    Top = 216
+    Width = 232
+    TabOrder = 1
+    OnChange = TampilNmChange
+  end
+  object Button1: TButton
+    Left = 80
+    Height = 25
+    Top = 176
+    Width = 75
+    Caption = 'Tampilkan'
+    TabOrder = 2
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 224
+    Height = 25
+    Top = 176
+    Width = 75
+    Caption = 'Hapus'
+    TabOrder = 3
+    OnClick = Button2Click
+  end
+  object Button3: TButton
+    Left = 360
+    Height = 25
+    Top = 176
+    Width = 75
+    Caption = 'Keluar'
+    TabOrder = 4
+    OnClick = Button3Click
+  end
+  object Label3: TLabel
+    Left = 16
+    Height = 15
+    Top = 80
+    Width = 23
+    Caption = 'NIM'
+    OnClick = Label3Click
+  end
+  object Nim: TEdit
+    Left = 160
+    Height = 23
+    Top = 80
+    Width = 176
+    TabOrder = 5
+    OnChange = NamaChange
+  end
+  object Label4: TLabel
+    Left = 16
+    Height = 15
+    Top = 112
+    Width = 28
+    Caption = 'Prodi'
+  end
+  object Label5: TLabel
+    Left = 16
+    Height = 15
+    Top = 136
+    Width = 40
+    Caption = 'Jenjang'
+  end
+  object Label6: TLabel
+    Left = 16
+    Height = 15
+    Top = 256
+    Width = 23
+    Caption = 'NIM'
+  end
+  object Label2: TLabel
+    Left = 16
+    Height = 15
+    Top = 224
+    Width = 96
+    Caption = 'Nama Mahasiswa '
+  end
+  object Label7: TLabel
+    Left = 16
+    Height = 15
+    Top = 288
+    Width = 28
+    Caption = 'Prodi'
+  end
+  object Label8: TLabel
+    Left = 16
+    Height = 15
+    Top = 320
+    Width = 40
+    Caption = 'Jenjang'
+  end
+  object Prodi: TEdit
+    Left = 160
+    Height = 23
+    Top = 112
+    Width = 176
+    TabOrder = 6
+    OnChange = NamaChange
+  end
+  object Jenjang: TEdit
+    Left = 160
+    Height = 23
+    Top = 140
+    Width = 176
+    TabOrder = 7
+    OnChange = NamaChange
+  end
+  object TampilNim: TEdit
+    Left = 160
+    Height = 23
+    Top = 248
+    Width = 232
+    TabOrder = 8
+    OnChange = TampilNmChange
+  end
+  object TampilProdi: TEdit
+    Left = 160
+    Height = 23
+    Top = 280
+    Width = 232
+    TabOrder = 9
+    OnChange = TampilNmChange
+  end
+  object TampilJenjang: TEdit
+    Left = 160
+    Height = 23
+    Top = 312
+    Width = 232
+    TabOrder = 10
+    OnChange = TampilNmChange
+  end
+  object Label9: TLabel
+    Left = 168
+    Height = 25
+    Top = 13
+    Width = 172
+    Caption = 'DATA MAHASISWA'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -19
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+end
